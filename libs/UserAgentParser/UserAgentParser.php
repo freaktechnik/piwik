@@ -123,6 +123,7 @@ class UserAgentParser
         'hotjava'                     => 'HJ',
         'ibrowse'                     => 'IB',
         'icab'                        => 'IC',
+        'songbird'                    => 'SB',
 
         // IE (including shells: Acoo, AOL, Avant, Crazy Browser, Green Browser, KKMAN, Maxathon)
         'msie'                        => 'IE',
@@ -178,7 +179,7 @@ class UserAgentParser
     // browser family (by layout engine)
     static protected $browserType = array(
         'ie'     => array('IE'),
-        'gecko'  => array('NS', 'PX', 'FF', 'FB', 'CA', 'GA', 'KM', 'MO', 'SM', 'CO', 'FE', 'KP', 'KZ', 'TB'),
+        'gecko'  => array('NS', 'PX', 'FF', 'FB', 'CA', 'GA', 'KM', 'MO', 'SM', 'CO', 'FE', 'KP', 'KZ', 'TB', 'SB'),
         'khtml'  => array('KO'),
         'webkit' => array('SF', 'CH', 'OW', 'AR', 'EP', 'FL', 'WO', 'AB', 'IR', 'CS', 'FD', 'HA', 'MI', 'GE', 'DF', 'BB', 'BP', 'TI', 'CF', 'RK', 'B2', 'NF'),
         'opera'  => array('OP'),
@@ -589,6 +590,7 @@ class UserAgentParser
         self::$browserIdToName['MC'] = 'NCSA Mosaic';
         self::$browserIdToName['NF'] = 'NetFront';
         self::$browserIdToName['OW'] = 'OmniWeb';
+        self::$browserIdToName['SB'] = 'Songbird';
         self::$browserIdToName['SF'] = 'Safari';
         self::$browserIdToName['SM'] = 'SeaMonkey';
         self::$browserIdToName['WO'] = 'Palm webOS';
